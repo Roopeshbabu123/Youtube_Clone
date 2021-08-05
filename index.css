@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 15px;
+}
+.Header_Left{
+    display: flex;
+    align-items: center;
+}
+.header img{
+    cursor: pointer;
+    padding: 0px 8px;
+}
+.Header_Middle form{
+    display: flex;
+    border: 1px solid;
+}
+.Header_Middle input{
+    width: 600px;
+    padding: 10px;
+}
+.MainBody{
+    display: flex;
+}
+.sidebar{
+    height: 100px;
+    width: 250px;
+}
+.categories{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.Each_Category{
+    display: flex;
+    padding: 10px 15px;
+}
+.Each_Category span{
+    margin-left: 10px;
+}
+.Each_Category:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+.card{
+    padding: 10px;
+}
